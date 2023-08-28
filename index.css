@@ -8,7 +8,7 @@ body {
   text-align: center;
   background: #0da8d3;
   width: 100%;
-  font-size: 4rem;
+  font-size: 6.5rem;
   color: white;
   margin-top: 3%;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .menu-text {
-  font-size: 3rem;
+  font-size: 7rem;
   color: white;
   margin-right: 5%;
 }
@@ -28,7 +28,7 @@ body {
 #open-dialog,
 #open-state,
 #open-place {
-  font-size: 3rem;
+  font-size: 6rem;
 }
 
 .car-table,
@@ -41,8 +41,10 @@ body {
   margin: 0;
 }
 
-.car-shcedule {
-  margin-left: 5%;
+.car-shcedule,
+.car-place,
+.car-state {
+  margin: 5% 0 5% 5%;
   width: 100%;
 }
 
@@ -52,7 +54,40 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  font-size: 2rem;
+  font-size: 5rem;
   width: 100%;
   margin-right: 2.5rem;
+}
+
+.add-dialog,
+.add-state,
+.add-place {
+  width: 70%;
+  height: 10%;
+  font-size: 4rem;
+  background-color: #0da8d3;
+}
+
+.time,
+.day {
+  width: 40%;
+  padding: 3% 10% 3% 5%;
+  font-size: 2rem;
+}
+
+.dn,
+.state,
+.place {
+  padding: 3% 5% 3% 5%;
+  font-size: 2rem;
+}
+
+.submit,
+.close-modal,
+.submit-state,
+.close-state,
+.submit-place,
+.close-place {
+  padding: 3% 5% 3% 5%;
+  font-size: 2rem;
 }
