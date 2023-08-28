@@ -63,23 +63,25 @@ body {
 .add-state,
 .add-place {
   width: 70%;
-  height: 10%;
-  font-size: 4rem;
+  height: 20%;
+  font-size: 6rem;
   background-color: #0da8d3;
+  align-items: center;
 }
 
 .time,
 .day {
   width: 40%;
   padding: 3% 10% 3% 5%;
-  font-size: 2rem;
+  font-size: 4rem;
+  margin-top: 5%;
 }
 
 .dn,
 .state,
 .place {
   padding: 3% 5% 3% 5%;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .submit,
@@ -89,5 +91,6 @@ body {
 .submit-place,
 .close-place {
   padding: 3% 5% 3% 5%;
-  font-size: 2rem;
+  font-size: 4rem;
+  margin-top: 10%;
 }
