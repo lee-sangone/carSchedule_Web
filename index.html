@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CarShare</title>
+  </head>
+  <body>
+    <header>Where is my car?</header>
+    <section>
+      <div>
+        <div>Schedule & Place</div>
+        <div>
+          <button id="open-dialog">click!</button>
+          <dialog class="add-dialog">
+            <div>
+              Day <input type="text" placeholder="00월 00일" class="day" />
+            </div>
+            <div>
+              Time <input type="text" class="time" />
+              <select class="dn">
+                <option value="am">AM</option>
+                <option value="pm">PM</option>
+              </select>
+            </div>
+            <div>
+              Use hour
+              <input type="text" placeholder="00시-00시" class="useHour" />
+            </div>
+            <div>
+              State
+              <select class="state">
+                <option value="hungry">hungry 🤤</option>
+                <option value="dirty">dirty 😶‍🌫️</option>
+                <option value="GOOD!">GOOD! 😆</option>
+              </select>
+            </div>
+            <div>
+              Place <input type="text" placeholder="B2,B3..." class="place" />
+            </div>
+            <div id="submit-form">
+              <button type="submit" class="submit">submit</button>
+              <button value="cancle" class="close-modal">cancel</button>
+            </div>
+          </dialog>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="car-table"></div>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
