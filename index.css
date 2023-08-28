@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: #0da8d3;
+}
+
+.header {
+  text-align: center;
+  background: #0da8d3;
+  width: 100%;
+  font-size: 4rem;
+  color: white;
+  margin-top: 3%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.menu-text {
+  font-size: 3rem;
+  color: white;
+  margin-right: 5%;
+}
+
+#open-dialog,
+#open-state,
+#open-place {
+  font-size: 3rem;
+}
+
+.car-table,
+.state-table,
+.place-table {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0;
+}
+
+.car-shcedule {
+  margin-left: 5%;
+  width: 100%;
+}
+
+.info,
+.state-info,
+.place-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  margin-right: 2.5rem;
+}

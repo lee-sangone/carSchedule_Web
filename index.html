@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>CarShare</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>Where is my car?</header>
+    <div class="header">Where is my car?</div>
     <section>
-      <div>
-        <div>Schedule & Place</div>
+      <div class="menu">
+        <div class="menu-text">Schedule</div>
         <div>
           <button id="open-dialog">click!</button>
           <dialog class="add-dialog">
@@ -22,21 +23,6 @@
                 <option value="pm">PM</option>
               </select>
             </div>
-            <div>
-              Use hour
-              <input type="text" placeholder="00시-00시" class="useHour" />
-            </div>
-            <div>
-              State
-              <select class="state">
-                <option value="hungry">hungry 🤤</option>
-                <option value="dirty">dirty 😶‍🌫️</option>
-                <option value="GOOD!">GOOD! 😆</option>
-              </select>
-            </div>
-            <div>
-              Place <input type="text" placeholder="B2,B3..." class="place" />
-            </div>
             <div id="submit-form">
               <button type="submit" class="submit">submit</button>
               <button value="cancle" class="close-modal">cancel</button>
@@ -47,6 +33,54 @@
     </section>
     <section>
       <div class="car-table"></div>
+    </section>
+    <section>
+      <div class="menu">
+        <div class="menu-text">State</div>
+        <div>
+          <button id="open-state">click!</button>
+          <dialog class="add-state">
+            <div>
+              State
+              <select class="state">
+                <option value="hungry">hungry 🤤</option>
+                <option value="dirty">dirty 😶‍🌫️</option>
+                <option value="GOOD!">GOOD! 😆</option>
+              </select>
+            </div>
+            <div>
+              <button type="submit" class="submit-state">submit</button>
+              <button value="cancle" class="close-state">cancel</button>
+            </div>
+          </dialog>
+        </div>
+        <div class="state-table"></div>
+      </div>
+    </section>
+    <section>
+      <div class="menu">
+        <div class="menu-text">Place</div>
+        <div>
+          <button id="open-place">click!</button>
+          <dialog class="add-place">
+            <div>
+              Place
+              <select class="place">
+                <option value="B2">B2</option>
+                <option value="B3">B3</option>
+                <option value="B4">B4</option>
+                <option value="B5">B5</option>
+                <option value="B6">B6</option>
+              </select>
+            </div>
+            <div>
+              <button type="submit" class="submit-place">submit</button>
+              <button value="cancle" class="close-place">cancel</button>
+            </div>
+          </dialog>
+        </div>
+        <div class="place-table"></div>
+      </div>
     </section>
     <script type="module" src="index.js"></script>
   </body>
